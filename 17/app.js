@@ -18,3 +18,8 @@ greetMe()
 
 // function its first class
 logGreeting(greetMe)
+
+// function on the fly
+logGreeting(function() {
+    console.log('Hello Linu')
+})
